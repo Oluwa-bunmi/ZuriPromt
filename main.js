@@ -6,7 +6,7 @@ let result;
 
 
 if (operator == "+") {
-  result = eval(num1 + num2);
+  result = num1 + num2;
 } else if (operator == "-") {
   result = num1 - num2;
 } else if (operator == "*") {
